@@ -32,10 +32,10 @@ int main(){
 		if(arr[3]==arr[4]) ans[2]=arr[3]-ans[0];
 		else if(arr[3]==ans[1]*2) ans[2]=arr[4]-ans[0];
 		else if(arr[4]==ans[1]*2) ans[2]=arr[3]-ans[0];
-		for(int i = 0; i < 25 ; i++){
-			printf("%ld ", arr[i]);
-		}
-		printf("\n");
+		// for(int i = 0; i < 25 ; i++){
+		// 	printf("%ld ", arr[i]);
+		// }
+		// printf("\n");
 		printf("Case #%d:", t);
 		
 		for(int i = 0 ; i < 5 ; i++){
