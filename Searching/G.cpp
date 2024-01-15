@@ -12,7 +12,7 @@ int main(){
 			scanf("%d", &temp);
 			if(temp >= weight) count++;
 		}
-		printf("Case #%d: %d");
+		printf("Case #%d: %d\n", tc , count);
 		
 	}
 	
